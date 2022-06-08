@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "build/index.js",
   "scripts": {
-    "start": "npm run compile && electron",
+    "start": "npm run compile && electron build/index.js",
     "compile": "tsc && copyfiles -f src/index.html build"
   },
   "dependencies": {

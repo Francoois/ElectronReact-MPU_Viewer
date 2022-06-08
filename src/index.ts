@@ -1,5 +1,4 @@
-import { app } from 'electron';
-import BrowserWindow = Electron.BrowserWindow;
+import { app, BrowserWindow} from 'electron';
 import * as path from "path";
 
 app.on('ready', () => {
